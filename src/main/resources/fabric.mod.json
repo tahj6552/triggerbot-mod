@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "triggerbot",
+	"version": "${version}",
+	"name": "Triggerbot",
+	"description": "Attacks any player in your crosshair once your attack cooldown is full. Page Down opens the on/off GUI.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.triggerbot.TriggerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
